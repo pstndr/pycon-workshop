@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "workshop_streamlit"
+name = "pycon_workshop_streamlit"
 version = "0.1.0"
 description = ""
 authors = ["Andrea Pastelli <andrea.pastelli@gmail.com>"]
