@@ -6,7 +6,7 @@ from utils.params import LOGOS_PATH
 
 def menu(logo_path: str,):
 
-    (c1, c2, c3, c4) = st.columns(4)
+    (c1, c2, c3, c4, c5) = st.columns(5)
     image = Image.open(logo_path)
     base_width = 100
     wpercent = base_width / float(image.size[0])
@@ -25,6 +25,12 @@ def menu(logo_path: str,):
     c4.page_link(
         "pages/data_visualization.py",
         label="Data Viz",
+        icon="📊",
+        disabled=False,
+    )
+    c5.page_link(
+        "pages/new_page.py",
+        label="New Page",
         icon="📊",
         disabled=False,
     )
